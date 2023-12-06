@@ -9,6 +9,9 @@
 			],
 			"group": "build",
 			"label": "rust: cargo build",
+			"options": {
+				"cwd": "${workspaceFolder}/day-3"
+			}
 		}
 	]
 }

@@ -8,23 +8,23 @@
             "type": "lldb",
             "request": "launch",
             "name": "Launch",
-            "program": "${workspaceFolder}/day-2",
+            "program": "${workspaceFolder}/day-3",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'day-2'",
+            "name": "Debug executable 'day-3'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=day-2",
-                    "--package=day-2",
-                    "--manifest-path=day-2/Cargo.toml"
+                    "--bin=day-3",
+                    "--package=day-3",
+                    "--manifest-path=day-3/Cargo.toml"
                 ],
                 "filter": {
-                    "name": "day-2",
+                    "name": "day-3",
                     "kind": "bin"
                 }
             },
@@ -32,7 +32,7 @@
                 // "user_arg1",
                 // "user_arg2"
             ],
-            "cwd": "${workspaceFolder}/day-2"
+            "cwd": "${workspaceFolder}/day-3"
         }
     ]
 }

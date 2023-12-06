@@ -4,7 +4,7 @@ fn part1() {
     // Read each line
     let lines = contents.lines();
     // List of numbers
-    for line in lines {
+    for _line in lines {
     }
 }
 
@@ -13,7 +13,7 @@ fn part2() {
     let contents = std::fs::read_to_string("input.txt").unwrap();
     // Read each line
     let lines = contents.lines();
-    for line in lines {
+    for _line in lines {
     }
 }
 
